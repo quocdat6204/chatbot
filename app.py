@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key-here-change-this'  # Thay đổi key này
 
 # Cấu hình Gemini API
-API_KEY = "AIzaSyCSYV9DdIZDVFGMirx2QSaUyuDJVXj-yTY"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 # Khởi tạo model
